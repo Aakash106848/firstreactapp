@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Name from './MyComponents/name';
+import Use from'./MyComponents/Date.js';
+import UserDetails from './UserDetails/UserDetails';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Name />
+    <Use />
+    <UserDetails/>
   </React.StrictMode>
 );
 

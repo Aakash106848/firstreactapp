@@ -1,0 +1,48 @@
+.user-details {
+    text-align: center;
+    font-size: 4cm;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-details fieldset {
+
+    margin-bottom: 4cm;
+    border: 2cm groove #ccc;
+  }
+  
+  .user-details form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-details label {
+    margin-bottom: 1cm;
+  }
+  
+  .user-details input[type="text"] {
+    font-size: 2cm;
+    height: 3cm;
+    width: 8cm;
+    padding: 1cm 1cm;
+    margin-bottom: 2cm;
+    border-radius: 1cm;
+    border: 0.4cm solid #ccc;
+  }
+  
+  .user-details input[type="submit"] {
+    font-size: 4cm;
+    padding: 2cm 2cm;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 1cm;
+    cursor: pointer;
+  }
+  
+  .user-details input[type="submit"]:hover {
+    background-color: #45a049;
+  }
